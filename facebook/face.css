@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "fonte1";
+    src: url(font/Roboto-Black.ttf);
+}
+
+body{
+    background-color: rgb(232, 233, 236);
+}
+h1{
+    color: #1876f2d7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    top:30px;
+    font-family: "fonte1";
+    font-size: 40px;
+}
+
+fieldset{
+    width: 360px;
+    height: 370px;
+    border-radius: 8pt;
+    position: relative;
+    left: 585px;
+    top: 40px; 
+    background-color: white;
+    box-shadow: 2px 2px 13px 0.7px rgba(0, 0, 0, 0.2); 
+    border: none;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(71, 71, 71);
+    text-align: center;
+}
+
+
+input#tMail{
+    padding: 14px;
+    width: 323px;
+    border-radius: 5pt;
+    border-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+input#tSenha{
+    padding: 14px;
+    width: 323px;
+    border-color:rgb(232, 233, 236);
+    border-radius: 5pt;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+h6{
+    text-align: center;
+    position: relative;
+    top: 10pt;
+    color: rgb(197, 197, 197);
+    
+}
+
+a#novaconta{
+    background-color:#42b72a;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 4pt;
+    color: white;
+    font-family: "fonte1";
+    position: relative;
+    top: 20px;
+    left: 110px;
+    
+}
+
+a#esqueceuaconta{
+    color: #1876f2d7;
+    position: relative;
+    left: 115px;
+    top: 30px;
+    font-family: "fonte1";
+    text-decoration: none;
+
+}
+
+a#entrar{
+     
+background-color: #1876f2d7;
+padding: 10px;
+position: relative;
+left: 2px;
+top: 20px;
+text-decoration: none;
+border-radius: 6pt;
+font-family: "fonte1";
+display: inline-block;
+width: 350px;
+text-align: center;
+height: 20px;
+color: white;
+
+}
+
+hr#hr1{
+    position: relative;
+    border-color:rgba(255, 255, 255, 0.4);
+    width: 130pt;
+    top: 295px;
+    right: 100px;
+}
+
+hr#hr2{
+    position: relative;
+    border-color:rgba(255, 255, 255, 0.4);
+    width: 130pt;
+    top: 285px;
+    left: 100px;
+} 
